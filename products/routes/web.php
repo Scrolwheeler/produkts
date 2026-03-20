@@ -8,7 +8,7 @@ use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 
 Route::get('/about', function () {
-    return view('about');
+    return "<h1>". 'About this page' . "</h1>";
 });
 
 Route::get('/info', function () {
