@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>About this page</h1>
+    @foreach ($allProducts as $product)
+        <h1>name: {{ $product->name }}</h1>
+    @endforeach
+    <a href
 </body>
 </html>
